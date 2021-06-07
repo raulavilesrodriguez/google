@@ -287,12 +287,13 @@ a.gb_f, span.gb_f {
 #hplogo {
     background: url(googlelogo.png) no-repeat;
     background-size: auto;
+    position:relative;
 }
 
 .a9nkvf {
     color: #4285f4;
     font: 16px/16px roboto-regular, arial, sans-serif;
-    position: relative;
+    position: absolute;
     left: 215px;
     top: 76px;
     white-space: nowrap;
@@ -439,8 +440,9 @@ footer.container-footer {
 
 
 .advanced-L3eUgb {
-    min-height: 100%;
-    margin: 0 auto -60px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     .advanced-titulo {
         color: #d93025;
         font-size: 20px;
@@ -450,10 +452,9 @@ footer.container-footer {
         border-bottom: 1px solid #ebebeb;
     }
     .advanced-contenedor {
-        max-width: 1140px;
-        min-width: 200px;
-        width: 96%;
-        margin: 40px 2% 0 45px;
+        padding:20px;
+        flex-shrink: 0;
+        box-sizing: border-box;
         div.advanced-otByu1 {
             @extend %otByu;
             .advanced-I1Kbt {

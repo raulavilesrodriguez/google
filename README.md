@@ -1,4 +1,4 @@
-# google clone
+# gogle.github.io
 
 ## CS50
 This my project 0 or from CS50Web. It is the design of an interface for Google Search, Google Image Search, and Google Advanced Search.
